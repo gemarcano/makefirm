@@ -16,7 +16,7 @@ typedef uint8_t  u8;
 typedef uint16_t u16;
 typedef uint32_t u32;
 
-#define FirmMagic (0x4D524946)
+#define FIRM_MAGIC (0x4D524946)
 
 typedef struct {
     u32 offset;
